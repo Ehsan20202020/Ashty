@@ -1,0 +1,57 @@
+body {
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .button-container {
+    display: inline-block;
+    text-align: center;
+  }
+
+  input[type="button"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  #yes-button {
+    background-color: green;
+    color: white;
+  }
+
+  #no-button {
+    background-color: red;
+    color: white;
+  }
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+  body {
+      font-size: 16px; /* Increase font size on mobile */
+  }
+
+  h1 {
+      font-size: 1.2rem; /* Slightly smaller heading on mobile */
+  }
+
+  input[type="button"] {
+      width: 80%; /* Make buttons more flexible on smaller screens */
+  }
+}
